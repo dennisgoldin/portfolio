@@ -2,16 +2,28 @@
 <html ng-app="">
     <head>
       <meta charset="utf-8">
-      <title></title>
+      <title>dennisgoldin.io</title>
       <link rel=“stylesheet” href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-      <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+		<!-- <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'> -->
+		<!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'> -->
     </head>
     <body>
-      <div ng-view>
-        Just a simple test!
+      <div class="content-container" ng-view>
+        <header>
+          <div>
+            <h1>Dennis Goldin</h1>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="">Skills</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </header>
       </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
