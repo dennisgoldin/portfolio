@@ -1,34 +1,114 @@
 body {
   margin: 0;
+  min-width: 710px;
   font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
 h1 {
-  font-size: 1.2em;
-  font-weight: normal; }
+  display: inline-block;
+  font-size: 2.2em;
+  font-weight: normal;
+  width: 252px;
+  height: 60px;
+  margin: 0;
+  line-height: 1.6;
+  background: #000;
+  color: #aaa;
+  background: -webkit-linear-gradient(right, #333, #aaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+h2 {
+  font-size: 1.9em;
+  margin: 30px 15% 0 15%;
+  font-weight: normal;
+  border-bottom: 1px solid #bbb;
+  width: 750px; }
+
+h3 {
+  font-size: 1.6em;
+  margin: 0; }
 
 header {
   width: 100%;
-  margin: 1em; }
+  height: 60px;
+  margin: 0;
+  border-bottom: 1px solid #bbb; }
+
+header div {
+  padding: 0 0 0 10px; }
 
 ul {
+  display: inline-block;
   list-style: none;
   float: right;
-  border: 1px dashed red;
-  margin: 10px; }
+  width: 400px;
+  height: 60px;
+  margin: 0; }
 
 ul li {
-  display: inline-block; }
+  display: inline-block;
+  height: 60px; }
 
 ul li a {
-  border: 1px dashed red;
-  margin-right: 50px; }
+  display: block;
+  margin-right: 40px;
+  height: 58px;
+  text-decoration: none;
+  vertical-align: bottom;
+  color: "Open Sans", sans-serif;
+  font-size: 1.0em;
+  line-height: 3.9;
+  color: #777; }
 
 ul li a:hover {
   border-bottom: 2px solid #bbb; }
 
 .content-container {
-  width: 100%;
-  border-bottom: 1px solid #bbb; }
+  width: 100%; }
+
+.pro-crd {
+  width: 750px;
+  margin: 50px 15%; }
+
+.pro-crd:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*="pro-crd-col-"] {
+  display: inline-block;
+  float: left;
+  height: 300px; }
+
+.pro-crd-col-1-2 {
+  width: 325px;
+  height: 300px; }
+  .pro-crd-col-1-2 p {
+    font-size: 0.8em; }
+  .pro-crd-col-1-2 .pro-crd-btn-wrapper {
+    text-align: center; }
+    .pro-crd-col-1-2 .pro-crd-btn-wrapper button {
+      margin: 10px 0 0 0;
+      padding: 10px 30px;
+      border-radius: 3px;
+      border: 1px solid #bbb;
+      background: #fff; }
+
+.pro-crd-label {
+  font-weight: bolder;
+  font-size: 1.1em; }
+
+.pro-crd-col-2-2 {
+  width: 400px;
+  margin: 0 0 0 20px; }
+
+.pro-crd-img {
+  border: 1px solid #bbb;
+  border-radius: 5px; }
+
+[id*="pro-crd-spacer-"] {
+  height: 20px;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
