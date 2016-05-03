@@ -14,7 +14,7 @@ h1 {
   line-height: 1.6;
   background: #fff;
   color: #aaa;
-  background: -webkit-linear-gradient(right, #333, #aaa);
+  background: -webkit-linear-gradient(right, #aaa, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -68,6 +68,7 @@ ul li a:hover {
   width: 100%; }
 
 .pro-crd {
+  border: 1px dashed blue;
   width: 750px;
   margin: 50px 15%; }
 
