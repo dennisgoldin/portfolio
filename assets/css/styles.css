@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-size: 1.9em;
-  margin: 30px 15% 0 15%;
+  margin: 20px 0;
   font-weight: normal;
   border-bottom: 1px solid #bbb;
   width: 750px; }
@@ -67,10 +67,17 @@ ul li a:hover {
 .content-container {
   width: 100%; }
 
-.pro-crd {
-  border: 1px dashed blue;
+.pro-container {
   width: 750px;
-  margin: 50px 15%; }
+  margin: 0 auto; }
+
+.pro-crd {
+  margin: 20px 0; }
+
+.pro-divider {
+  width: 750px;
+  height: 1px;
+  background: #bbb; }
 
 .pro-crd:after {
   content: "";
@@ -95,6 +102,8 @@ ul li a:hover {
       border-radius: 3px;
       border: 1px solid #bbb;
       background: #fff; }
+    .pro-crd-col-1-2 .pro-crd-btn-wrapper button:hover {
+      border: 1px solid #000; }
 
 .pro-crd-label {
   font-weight: bolder;
@@ -106,7 +115,7 @@ ul li a:hover {
 
 .pro-crd-img {
   border: 1px solid #bbb;
-  border-radius: 5px; }
+  border-radius: 3px; }
 
 [id*="pro-crd-spacer-"] {
   height: 20px;
