@@ -121,4 +121,22 @@ ul li a:hover {
   height: 20px;
   width: 100%; }
 
+.home-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 0 30px 0; }
+
+.home-bio-wrapper {
+  display: inline-block;
+  margin-left: 20px; }
+
+.home-bio-wrapper {
+  width: 620px; }
+
+.home-container {
+  width: 850px;
+  margin: 20px auto 300px auto; }
+
 /*# sourceMappingURL=styles.css.map */
