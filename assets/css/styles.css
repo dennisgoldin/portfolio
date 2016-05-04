@@ -126,7 +126,7 @@ ul li a:hover {
   height: 200px;
   border-radius: 100px;
   display: inline-block;
-  margin: 0 0 30px 0; }
+  margin: 0 0 17.5px 0; }
 
 .home-bio-wrapper {
   display: inline-block;
@@ -138,5 +138,10 @@ ul li a:hover {
 .home-container {
   width: 850px;
   margin: 20px auto 300px auto; }
+
+.contact-container {
+  border: 1px dashed red;
+  width: 850px;
+  margin: 20px auto 800px auto; }
 
 /*# sourceMappingURL=styles.css.map */
