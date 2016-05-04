@@ -27,8 +27,7 @@ h2 {
 
 h3 {
   margin: 0;
-  font-size: 1.6em;
-  font-weight: lighter; }
+  font-size: 1.6em; }
 
 header {
   position: fixed;
@@ -99,21 +98,21 @@ ul li a:hover {
   width: 325px;
   height: 300px; }
   .pro-crd-col-1-2 p {
-    font-size: 0.8em; }
+    font-size: 0.9em; }
   .pro-crd-col-1-2 .pro-crd-btn-wrapper {
     text-align: center; }
     .pro-crd-col-1-2 .pro-crd-btn-wrapper button {
-      margin: 10px 0 0 0;
       padding: 10px 30px;
       border-radius: 3px;
       border: 1px solid #bbb;
-      background: #fff; }
+      background: #fff;
+      font-size: 0.9em; }
     .pro-crd-col-1-2 .pro-crd-btn-wrapper button:hover {
       border: 1px solid #000; }
 
 .pro-crd-label {
   font-weight: bolder;
-  font-size: 1.1em; }
+  font-size: 1.2em; }
 
 .pro-crd-col-2-2 {
   width: 400px;
@@ -132,7 +131,7 @@ ul li a:hover {
   height: 200px;
   border-radius: 100px;
   display: inline-block;
-  margin: 0 0 17.5px 0; }
+  margin: 0 0 8px 0; }
 
 .home-bio-wrapper {
   display: inline-block;
@@ -154,5 +153,12 @@ ul li a:hover {
   text-align: center;
   font-weight: lighter;
   font-size: 1.75em; }
+
+.contact-link {
+  text-decoration: none;
+  color: #bbb; }
+
+.contact-link:hover {
+  color: #000; }
 
 /*# sourceMappingURL=styles.css.map */
